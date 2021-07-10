@@ -1,0 +1,33 @@
+//importer une fonts de google
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
+
+//color------------------------------------------
+$color-1: #61dafb;
+$color-2: #f7f7f7;
+$color-3: #282c34;
+$color-4: rgb(32,35,42);
+//font-----------------------------------------
+$font-1: 'Cormorant Garamond', serif;
+//reset----------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//corps----------------------------------------
+body{
+    font-family: $font-1;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: $color-3;
+    cursor: pointer;
+}
+a:visited{
+    color: $color-3;
+}
